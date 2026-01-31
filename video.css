@@ -1,0 +1,107 @@
+
+
+ body{
+ background: rgb(255, 255, 255);
+ margin: 0;
+ padding: 0;
+ font-family: helvetica neue,helvetica,arial,sans-serif;
+ }
+
+/* HEADER */
+ header{
+ background-image: url(../image/sdi_sun_and_clouds.jpg);
+ background-size: cover;
+ background-position: center;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ height: 320px;
+ text-align: center;
+ line-height: 1;
+ margin: 0;
+ padding: 0;
+ }
+  
+ header a {
+    color: rgb(36, 31, 31);
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
+ header .logo {
+   background-size: 90px;
+   height: 100px;
+   width: 100px;
+   top: -30px;
+ }
+ .name{
+  background: wheat;
+  border-radius: 20px;
+  box-shadow: black;
+  text-align: center;
+ }
+
+ .mem{
+  margin-left: 5px;
+ }
+
+ .mem a{
+  color: black;
+  text-decoration: none;
+ }
+
+ .intro{
+  margin-left: 20px;
+ }
+
+ nav {
+  width: 100%;
+  margin: 0;
+ }
+
+ nav ul{
+ margin: 0;
+ padding: 0;
+ background-color: azure;
+ overflow: hidden;
+ }
+
+ nav li{
+ display: inline-block;
+ margin: 20px;
+ }
+
+ /* FEATURES */
+ .video {
+ background: none;
+ color: grey;
+ display: ruby;
+ padding: 0px;
+ }
+
+ .vid {
+  margin: auto;
+  padding: 30px 0px 0px 20px;
+  width: 250px;
+ }
+
+video {
+   max-width: 100%;
+   border: 1px solid white;
+   border-radius: 5%;
+   box-shadow: gray 0px 0px 10px;
+   width: 300px;
+ }
+
+
+
+ /* FOOTER */
+ footer{ 
+ background: black;
+ color: gray;
+ font-size: 12px;
+ padding: 20px 20px;
+ text-align: center;
+ }
+
+
