@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+
+   <head>
+    <meta charset="utf-8">
+    <title > churchofvictory webpage </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/sign up.css">
+
+
+</head>
+
+   <body > 
+    
+    
+    <div>
+<nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="location.html">location</a></li>
+                <li> <a href="videos.html">Videos</a></li>
+                <li><a href="contact.html">contact Us</a></li>
+                <li class="topnav-right" ><a 
+                href="signup.html">Sign Up</a></li>
+                <li class="topnav-right"><a 
+                href="signin.html">Login</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" 
+                onclick="dropdownMENU()">&#9776;</a></li>
+            </ul>
+        </nav>
+
+        <div class="header">
+        <input type="image" src="image/LOGO.png " alt="church logo" class="logo">
+        </div>
+    <div class="name">
+        <div class="row">
+            <div class="col-6 leftside-col">
+              <div>
+              <h2 class="large mobilelarge">Please input your 
+              <b>NAME</b> and your <b>PHONE NUMBER</b></h2>
+              </div>
+                <form>
+                    <div>
+                        <h3>First Name</h3>
+                        <input class="inputbox" name="firstname" type="text" 
+                        placeholder="e.g Andrew">
+                        <h3>Phone no.</h3>
+                        <input class="inputbox" name="phonenumber" type="text" 
+                        placeholder="e.g +234 80-8453-7283">
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-6">
+            </div>
+        </div>
+    </div>    
+    <footer>
+      (c) 2025 Church Of Victory.right reserve
+     </footer>
+
+    <script>
+    function dropdownMENU() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav" ) {
+          x.className += " responsive";
+            /*change topnav to topnav.responsive*/
+        } else {
+            x.className = "topnav";
+        }
+        }
+
+    </script>
+     
+  </body>
+</html> 
